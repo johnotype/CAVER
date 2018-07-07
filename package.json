@@ -1,0 +1,28 @@
+{
+  "name": "caver",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "node client.js",
+    "database": "node database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnotype/CAVER.git"
+  },
+  "author": "johnodonnell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnotype/CAVER/issues"
+  },
+  "homepage": "https://github.com/johnotype/CAVER#readme",
+  "dependencies": {
+    "mongodb": "^3.1.0",
+    "mysql": "^2.15.0",
+    "ws": "^5.2.1"
+  }
+}
